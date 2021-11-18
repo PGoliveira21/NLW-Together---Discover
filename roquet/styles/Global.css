@@ -25,8 +25,8 @@ html {
 
 body {
   height: 100vh;
-  width: 100vw;
-  background: #fbfcff;
+  display: flex;
+  background: var(--background);
 }
 
 body,
@@ -54,4 +54,52 @@ textarea {
   clip-path: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+/*-------------input and buttons*/
+button,
+input,
+.button {
+  border-radius: 8rem;
+  height: 5rem;
+}
+
+button,
+.button {
+  font-family: 'poppins';
+  font-weight: 500;
+  line-height: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 0.2s;
+  background: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+  filter: brightness(1.2);
+}
+button > img .button > img {
+  margin-right: 1rem;
+  width: 2rem;
+}
+
+button.outlined,
+.button.outlined {
+  background: var(--white);
+  color: var(--blue);
+  border: 0.2rem solid var(--blue);
+}
+
+.content header {
+  width: 80%;
+  margin: 3.5rem auto;
+}
+
+.content header img {
+  width: 16.7rem;
 }

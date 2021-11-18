@@ -19,4 +19,31 @@ header {
 
 main {
   grid-area: right;
+  display: center;
+  align-items: center;
+  margin-left: -10rem;
+  margin-right: 10rem;
+}
+
+main .container {
+  width: min(36.3rem 100%);
+}
+
+main H2 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--black);
+  font-size: clamp(20px, 5vw, 2.8rem);
+  margin-bottom: 2.4rem;
+}
+
+input {
+  border: 0.2rem solid var(--grey-blue);
+  padding: 0 1.6rem;
+}
+
+input,
+button,
+.button {
+  width: 100%;
+  margin-bottom: 1.8rem;
 }
