@@ -14,19 +14,17 @@ header {
 
 #bg {
   grid-area: left;
-  background: url('/roquet/assets/Ilustração.svg') no-repeat top/contain;
+  background: url('/roquet/assets/home-bg-img.svg') no-repeat top/contain;
 }
 
 main {
   grid-area: right;
-  display: center;
+  display: flex;
   align-items: center;
-  margin-left: -10rem;
-  margin-right: 10rem;
 }
 
 main .container {
-  width: min(36.3rem 100%);
+  width: min(36.3rem, 100%);
 }
 
 main H2 {
