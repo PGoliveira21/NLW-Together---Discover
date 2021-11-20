@@ -19,7 +19,7 @@ header {
 
 main {
   grid-area: right;
-  display: flex;
+
   align-items: center;
 }
 
