@@ -75,6 +75,7 @@ button,
   background: var(--blue);
   clip-path: circle();
   position: fixed;
+  opacity: 0.1;
 }
 
 .ball.top {
