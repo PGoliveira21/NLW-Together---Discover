@@ -1,5 +1,5 @@
 .content {
-  max-width: 80%;
+  max-width: min(112rem, 80%);
 }
 #room header {
   width: 100%;
@@ -47,6 +47,7 @@
   border: 0.2rem solid var(--grey-blue);
   padding: 1.6rem;
   border-radius: 0 0.8rem 0.8rem 0.8rem;
+  margin-bottom: 1.6rem;
 }
 
 #question-form textarea {
@@ -55,4 +56,30 @@
   outline: none;
   width: 100%;
 }
-/**1:11*/
+
+#question-form form textarea::placeholder {
+  color: var(--grey-blue);
+}
+
+#question-form form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#question-form form footer > div {
+  color: var(--icons-details);
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  display: flex;
+}
+#question-form form footer > div img {
+  margin-right: 0.9rem;
+}
+
+#question-form form footer button {
+  height: auto;
+  padding: 0.8rem 2.4rem;
+  line-height: 2.4rem;
+}
