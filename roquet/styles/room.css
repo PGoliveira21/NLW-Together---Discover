@@ -83,3 +83,39 @@
   padding: 0.8rem 2.4rem;
   line-height: 2.4rem;
 }
+
+/**********Questions********/
+.questions-wrapper {
+  background: var(--light-blue);
+  margin-bottom: 0.8rem;
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+  padding: 2.4rem;
+}
+
+.questions-wrapper .question-content {
+  display: flex;
+  align-items: center;
+}
+
+.questions-wrapper .question-content p {
+  margin-left: 1.6rem;
+}
+
+.questions-wrapper .action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.questions-wrapper .action > a {
+  display: flex;
+  align-items: center;
+}
+
+.questions-wrapper .action > a > img {
+  margin-left: 0.8rem;
+}
+
+.questions-wrapper .action > a + a {
+  margin-right: 2.4rem;
+}
