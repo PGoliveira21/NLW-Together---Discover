@@ -97,6 +97,12 @@
   align-items: center;
 }
 
+.questions-wrapper .question-content .user {
+  background: var(--blue);
+  clip-path: circle();
+  padding: 1.4rem;
+}
+
 .questions-wrapper .question-content p {
   margin-left: 1.6rem;
 }
@@ -118,4 +124,14 @@
 
 .questions-wrapper .action > a + a {
   margin-right: 2.4rem;
+}
+
+/********** Question Read *************/
+
+.questions-wrapper.read {
+  background: var(--grey-medium);
+}
+
+.questions-wrapper.read .question-content .user {
+  background: var(--grey-blue);
 }
