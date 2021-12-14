@@ -99,11 +99,14 @@ button.outlined,
 
 button.red,
 .button.red {
+  color: var(--white);
   background: var(--red);
 }
-
+/**1:19*/
 button.grey,
 .button.grey {
+  color: var(--grey-dark);
+  background: var(--grey-light);
 }
 
 /*****HEADER*******/
